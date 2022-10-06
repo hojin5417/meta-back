@@ -1,5 +1,6 @@
 const express = require('express');
 const logger = require('../lib/logger');
+//log ^^
 const authRouter = require('./auth');
 const departmentRouter = require('./department');
 const userRouter = require('./user');
