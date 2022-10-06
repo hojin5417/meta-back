@@ -4,7 +4,7 @@ const router = express.Router();
 const logger = require('../lib/logger');
 const tokenUtil = require('../lib/tokenUtil');
 const userService = require('../service/userService');
-
+// work1
 // user 토큰 발행
 router.post('/token', async (req, res) => {
   try {
